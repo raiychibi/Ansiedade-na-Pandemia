@@ -1,0 +1,766 @@
+{
+  "intents": [
+    {
+      "intent": "ajudasuporte",
+      "examples": [
+        {
+          "text": "ajuda"
+        },
+        {
+          "text": "Consulta com psicologo"
+        },
+        {
+          "text": "crise de ansiedade"
+        },
+        {
+          "text": "Crise de Pânico"
+        },
+        {
+          "text": "Estou com crise de ansiedade"
+        },
+        {
+          "text": "Não to bem"
+        },
+        {
+          "text": "não to legal"
+        },
+        {
+          "text": "Não to legal, vc pode me ajuda"
+        },
+        {
+          "text": "Oi, como funciona o botão ajuda?"
+        },
+        {
+          "text": "O que acontece se eu pedir ajuda?"
+        },
+        {
+          "text": "Preciso agendar uma consulta com psicólogo"
+        },
+        {
+          "text": "Quais suportes de ajuda vocês tem?"
+        },
+        {
+          "text": "Socorro, me ajuda"
+        },
+        {
+          "text": "Suporte de ajuda"
+        },
+        {
+          "text": "Vocês fazem atendimento psicológico?"
+        },
+        {
+          "text": "Vocês tem suporte de ajuda"
+        }
+      ],
+      "description": "Capta as perguntas relacionadas a necessidade de ajuda para o usuário."
+    },
+    {
+      "intent": "cadastrologin",
+      "examples": [
+        {
+          "text": "Achei um grupo legal! E agora?"
+        },
+        {
+          "text": "Ainda não sou logado. Como faço para me cadastrar?"
+        },
+        {
+          "text": "Cadastro?"
+        },
+        {
+          "text": "Como acesso os links pro discord?"
+        },
+        {
+          "text": "Como loga?"
+        },
+        {
+          "text": "Como me cadastro?"
+        },
+        {
+          "text": "Já sei que grupo quero ir... o que faz agora?"
+        },
+        {
+          "text": "já tenho grupo que estou interessado, mas não acho os links pro discord"
+        },
+        {
+          "text": "Já visualizei os grupos que quero me inserir, mas não consigo acessar os links do Discord."
+        },
+        {
+          "text": "Login?"
+        },
+        {
+          "text": "Não achei cadastro"
+        },
+        {
+          "text": "Não estou achando o botão pra me cadastrar"
+        },
+        {
+          "text": "Onde faço o login?"
+        },
+        {
+          "text": "Onde fica o botão cadastrar?"
+        },
+        {
+          "text": "Onde me cadastro?"
+        },
+        {
+          "text": "Quero me cadastrar"
+        }
+      ],
+      "description": "Capta as perguntas sobre cadastro ou login do usuário e/ou relacionadas a esse tema."
+    },
+    {
+      "intent": "cadastro-login-negativo",
+      "examples": [
+        {
+          "text": "Ainda não estou logado"
+        },
+        {
+          "text": "Ainda não me cadastrei"
+        },
+        {
+          "text": "Não"
+        },
+        {
+          "text": "Não loguei ainda"
+        },
+        {
+          "text": "Não, não tenho cadastro ainda"
+        },
+        {
+          "text": "Não possuo cadastro"
+        }
+      ],
+      "description": "Capta as respostas que confirmam que o usuário não está cadastrado ou logado no site da Unemind."
+    },
+    {
+      "intent": "cadastro-login-positivo",
+      "examples": [
+        {
+          "text": "ja estou cadastrado"
+        },
+        {
+          "text": "Já estou logado"
+        },
+        {
+          "text": "Sim"
+        },
+        {
+          "text": "Sim, estou cadastrado"
+        },
+        {
+          "text": "Sim estou logado"
+        },
+        {
+          "text": "Sim, já loguei"
+        },
+        {
+          "text": "Sim, já me cadastrei!"
+        }
+      ],
+      "description": "Capta as respostas que confirmam que o usuário está cadastrado ou logado no site da Unemind."
+    },
+    {
+      "intent": "contato",
+      "examples": [
+        {
+          "text": "Como faço pra enviar uma pergunta pra vocês?"
+        },
+        {
+          "text": "como faz pra enviar um pergunta pra vcs?"
+        },
+        {
+          "text": "Como funciona o Contato?"
+        },
+        {
+          "text": "Contato"
+        },
+        {
+          "text": "da pra fazer uma pergunta pra vcs?"
+        },
+        {
+          "text": "É possível entrar em contato por telefone com vcs?"
+        },
+        {
+          "text": "Estou com problemas no meu cadastro, como faço para reportar isso?"
+        },
+        {
+          "text": "Oi, gostaria de entrar em contato com vcs"
+        },
+        {
+          "text": "Preciso enviar uma pergunta, como que faz?"
+        },
+        {
+          "text": "Quero fazer uma queixa, como faço?"
+        },
+        {
+          "text": "quero fazer uma reclamação"
+        },
+        {
+          "text": "Tenho uma dúvida, como que falo com a equipe?"
+        },
+        {
+          "text": "Vocês respondem perguntas específicas caso haja problemas técnicos?"
+        },
+        {
+          "text": "Vocês tem algum email pra receber perguntas privadas?"
+        },
+        {
+          "text": "Vocês tem contato?"
+        },
+        {
+          "text": "Vocês tem suporte de perguntas?"
+        }
+      ],
+      "description": "Capta as perguntas relacionadas a necessidade de entrar em contato com a Equipe Unemind."
+    },
+    {
+      "intent": "discord",
+      "examples": [
+        {
+          "text": "Admin Discord"
+        },
+        {
+          "text": "As salas dos grupos do discord cabem quantas pessoas?"
+        },
+        {
+          "text": "Como é no Discord?"
+        },
+        {
+          "text": "Como funcionam os grupos do Discord?"
+        },
+        {
+          "text": "Como me registro no Discord?"
+        },
+        {
+          "text": "Discord"
+        },
+        {
+          "text": "Moderador Discord"
+        },
+        {
+          "text": "O que acontece depois que clico no link do discord?"
+        },
+        {
+          "text": "Posso me tornar admin do meu grupo do discord?"
+        },
+        {
+          "text": "Posso virar moderador de uma sala do Discord?"
+        },
+        {
+          "text": "Quem é adm das salas do Discord?"
+        },
+        {
+          "text": "Quem organiza os grupos do discord?"
+        },
+        {
+          "text": "Quero saber sobre o discord"
+        },
+        {
+          "text": "Registro no discord"
+        },
+        {
+          "text": "Salas do Discord"
+        }
+      ],
+      "description": "Capta as perguntas sobre Discord ou relacionadas a esse aplicativo."
+    },
+    {
+      "intent": "grauansiedade",
+      "examples": [
+        {
+          "text": "Acho que alta"
+        },
+        {
+          "text": "Alta"
+        },
+        {
+          "text": "Leve"
+        },
+        {
+          "text": "Média"
+        },
+        {
+          "text": "tá levinha"
+        },
+        {
+          "text": "tá media"
+        },
+        {
+          "text": "tá muito altaaaa"
+        }
+      ],
+      "description": "Capta as respostas relacionadas ao grau de ansiedade relatadas pelo usuário."
+    },
+    {
+      "intent": "grupos",
+      "examples": [
+        {
+          "text": "Após me cadastrar, como funciona?"
+        },
+        {
+          "text": "Como acesso grupos?"
+        },
+        {
+          "text": "Como encontro amigos?"
+        },
+        {
+          "text": "Como faço pra começar as atividades de interesse?"
+        },
+        {
+          "text": "Como são as atividades de interesse nos grupos?"
+        },
+        {
+          "text": "Como sei mais detalhes sobre grupos?"
+        },
+        {
+          "text": "Como sei sobre cada tipo de grupo? e o que as pessoas vão fazer nele?"
+        },
+        {
+          "text": "De que forma vou conseguir interagir com meus colegas?"
+        },
+        {
+          "text": "Eu vou ter um clube?"
+        },
+        {
+          "text": "Grupos?"
+        },
+        {
+          "text": "Onde encontro amigos que tenham interesse em comum?"
+        },
+        {
+          "text": "Onde tem grupos?"
+        },
+        {
+          "text": "posso ter um clã?"
+        },
+        {
+          "text": "Quero grupo"
+        },
+        {
+          "text": "Quero interagir"
+        },
+        {
+          "text": "Quero jogar com amigos"
+        },
+        {
+          "text": "Quero saber mais sobre grupos de interesse"
+        }
+      ],
+      "description": "Capta as perguntas relacionadas a grupos de interesse e assuntos relacionados a eles."
+    },
+    {
+      "intent": "humorhoje",
+      "examples": [
+        {
+          "text": "Acho, que Normal"
+        },
+        {
+          "text": "Bom"
+        },
+        {
+          "text": "hoje está bom"
+        },
+        {
+          "text": "me sinto normal"
+        },
+        {
+          "text": "meu humor está bom"
+        },
+        {
+          "text": "Normal"
+        },
+        {
+          "text": "Nossa muito ruim"
+        },
+        {
+          "text": "Ruim"
+        }
+      ],
+      "description": "Capta os tipos de humor relatados pelo usuário."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "ajudasuporte",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ajuda",
+          "synonyms": [
+            "assistência psicológica",
+            "atendimento psicológico",
+            "suporte ajuda"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "contato",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Contato",
+          "synonyms": [
+            "dúvida",
+            "pergunta",
+            "reclamação"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "discord",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Discord",
+          "synonyms": [
+            "aplicativo de texto e voz",
+            "app de comunicação",
+            "plataforma interativa"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "grauansiedade",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alto",
+          "synonyms": [
+            "altíssimo",
+            "elevado",
+            "muito alto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Leve",
+          "synonyms": [
+            "baixo",
+            "levíssimo",
+            "suave"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Médio",
+          "synonyms": [
+            "intermediário",
+            "mediano",
+            "na média"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "grupo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "grupo",
+          "synonyms": [
+            "clã",
+            "clube",
+            "comunidade"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "humor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bom",
+          "synonyms": [
+            "boníssimo",
+            "excelente",
+            "muito bom",
+            "ótimo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Normal",
+          "synonyms": [
+            "bem normal",
+            "normalíssimo",
+            "normalzão",
+            "regular"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ruim",
+          "synonyms": [
+            "horrível",
+            "muito ruim",
+            "péssimo",
+            "ruimzão"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, sou o Unemind-BOT, antes de mais nada, me conta, você já é cadastrado?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Tipo Humor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1621369955828",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1621386053902"
+      },
+      "conditions": "@humor || #humorhoje",
+      "dialog_node": "node_10_1621370162454"
+    },
+    {
+      "type": "standard",
+      "title": "Discord Detalhes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Então, após escolher um ou mais grupos, você, já cadastrado, terá acesso aos links do Discord. Lá terá que se registrar com o Bot-Registro. É so clicar no nome do grupo escolhido! Em seguida você terá acesso liberado para a sua sala. As salas tem limite de 12 pessoas, podendo ter restrições dependendo do tipo de grupo. Nossa equipe organiza os grupos do Discord, são os admins! Caso seja necessário, um adm pode eleger até 3 moderadores para manter o respeito entre colegas nas salas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#discord || @discord",
+      "dialog_node": "node_10_1621374855304",
+      "previous_sibling": "node_9_1621302540069"
+    },
+    {
+      "type": "standard",
+      "title": "Suporte Ajuda",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nós da Unemind nos preocupamos com seu estado de saúde mental, por isso indicamos os melhores sites de psicologia online para você receber ajuda, caso sinta que é necessário. Ainda disponibilizamos um botão para a assitência da faculdade, se essa assim contar com esse suporte. Basta clicar em ajuda, e acessar os links de direcionamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ajudasuporte || @ajudasuporte",
+      "dialog_node": "node_3_1621428169120",
+      "previous_sibling": "node_10_1621374855304"
+    },
+    {
+      "type": "standard",
+      "title": "Saudação Geral",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Como posso ajudar você hoje?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@grauansiedade || #grauansiedade || #cadastro-login-negativo",
+      "dialog_node": "node_4_1621369247799",
+      "previous_sibling": "node_4_1621386053902"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastro SIM",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bom! Então  antes de prosseguirmos, me conta! Numa escala de Bom, Normal ou Ruim, como está seu Humor hoje?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cadastro-login-positivo || #humorhoje || @humor",
+      "dialog_node": "node_4_1621369955828",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Tipo Ansiedade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "E como você classificaria seu grau de ansiedade hoje: Leve, Médio ou Alto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "",
+      "dialog_node": "node_4_1621386053902",
+      "previous_sibling": "node_4_1621369955828"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastro & Login",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oiee, basta clicar ali, no botão de login, na barra de navegação. Você será direcionado para a página Login, onde abaixo da opcão senha, há um pedido de Cadastre-se, em destaque! É só clicar nele caso não tenha cadastro! Essa etapa é essencial para poder acessar os links do Discord, precisa estar logado ou cadastrado para isso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cadastrologin || @cadastrologin",
+      "dialog_node": "node_6_1621303691742",
+      "previous_sibling": "node_4_1621369247799"
+    },
+    {
+      "type": "standard",
+      "title": "Contato Equipe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olhe nosso botão Contato!! É feito justamente para facilitar a comunicação entre nossos usuários e a Equipe Unemind! Ao clicar nesse botão você poderá inserir sua pergunta e entre 1 e 3 dias úteis te retornaremos uma resposta por email."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#contato && @contato",
+      "dialog_node": "node_6_1621375477406",
+      "previous_sibling": "node_3_1621428169120"
+    },
+    {
+      "type": "standard",
+      "title": "Não Entendi",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, desculpe, não entendi. Poderia reformular a pergunta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_8_1621367873908",
+      "previous_sibling": "node_6_1621375477406"
+    },
+    {
+      "type": "standard",
+      "title": "Grupo Info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oiii, é fácil! Basta clicar no botão Grupos, ali em cima, na barra de navegação. Você pode ver quais grupos te interessam e ao arrastar o indicador sobre eles é possível ler uma breve descrição sobre que tipo de atividade de interesse estão focados. Caso já seja cadastrado, você terá acesso aos links do Discord de cada grupo que quiser para já começar a interagir!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#grupos || @grupos",
+      "dialog_node": "node_9_1621302540069",
+      "previous_sibling": "node_6_1621303691742"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Ansiedade",
+  "language": "pt-br",
+  "description": ""
+}
