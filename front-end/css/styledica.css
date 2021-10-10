@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;    
+}
+
+ul{
+    list-style: none;    
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+    /* background-color: #739DDE; */
+    background-color: #5865f2;
+}
+
+.header{
+    width: 90%;
+    height: 100px;
+    padding: 10px 20px 0 100px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    position: fixed;
+}
+
+.nav{
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoimg{
+    height: 250px;
+    padding-left: 65px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    margin: 0 15px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 20px;
+    /* color: #414153; */
+    color: #fff;
+}
+
+.menu li a:hover{
+    color: #fff;
+    transition: .75s;
+    background-color: #5e7eff;
+    /* border: 2px solid #00a3db; */
+    border: 1px solid #4d70ff;
+    border-radius: 25%;
+}
+
+.contatodiv fieldset{
+    padding: 20px;
+    height: 349px;
+}
+
+.contatodiv textarea{
+    margin-top: 10px;
+    width: 80%;
+    color: black;
+}
+
+.contatodiv input[type="submit" i] {
+    background-color: #5865f2;
+    padding: 5px 25px;
+    margin: 8px;
+    color: white;
+}
+
+.contato h1{
+    text-align: center;
+}
+
+.barra{
+    width: 35%;
+    margin-top: 1%;
+    border-radius: 8%;
+    border: 1px solid white;
+    margin-left: 32%;
+}
+
+.contato{
+    width: 50%;
+    margin-top: 2%;
+    padding-right: 25px;
+    background-color: #2c2f33;
+    /* border-right: 2px solid white; */
+}
+
+.contatodiv{
+    background-color: #2c2f33;
+    color: white;
+    width: 100%;
+    height: 620px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.vaoamerda{
+    width: 50%;
+    /* background-color: black; */
+}
+
+.vaoamerda img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+fieldset{
+    margin-top: 25px;
+    padding: 50px;
+}
+
+.quemsomos h1{
+    /* color: #ffffff; */
+    font-family: "Roboto Slab", Sans-serif;
+    font-size: 65px;
+    font-weight: 400;
+}
+
+.dica h2{
+    margin: 1%;
+    padding: 10px;
+    text-align: center;
+    color:#5865f2;
+}
+
+.imagem img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.imagem{
+    width: 40%;
+    height: 320px;
+    /* margin-left: 30%; */
+    margin: 1% 30%;
+}
+
+.texto{
+    font-size: 22px;
+    padding: 25px;
+    width: 80%;
+    height: 320px;
+    margin: 0% 10%;
+    color: #fff;
+    /* border: 1px solid #fff; */
+    /* border-radius: 2%; */
+    /* background-color: #5e7eff; */
+    /* background-color: #5c68f1; */
+}
+
+.container{
+    width: 100%;
+    height: 820px;
+    border: 1px solid black;  
+    background-color: #2c2f33;
+    /* display: flex; */
+}
+
+.teste1{
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    background-color: #2c2f33;
+}
+
+.teste1 img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.descricao{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #5865f2a9;
+}
+
+.exemplo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.espaco-header{
+    width: 100%;
+    height: 100px;
+}
+
+.propaganda{
+    /* text-align: center; */
+    height: 620px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.propaganda img{
+    width: 100%;
+    height: 620px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer h2{
+    font-size: 14px;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4d70ff;
+}
+
+.redes-sociais{
+    font-size: 20px;
+    color: #777;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+.redes-sociais:hover{
+    color: #eee;
+    transition: .5s;
+}
